@@ -28,17 +28,22 @@ body {
 }
 
 .navbar {
-  background-color: var(--kavia-dark);
+  background: rgba(255,255,255,0.72);
+  box-shadow: var(--pastel-shadow);
   padding: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: var(--pastel-border);
+  border-radius: 0 0 2rem 2rem;
   position: fixed;
   top: 0;
   width: 100%;
   box-sizing: border-box;
   z-index: 100;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: background 0.2s, color 0.2s;
 }
 
 .logo {
