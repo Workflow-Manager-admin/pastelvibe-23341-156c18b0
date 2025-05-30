@@ -75,7 +75,6 @@ function Music() {
           </div>
         ))}
       </div>
-      <div style={{ marginTop:24, color:'#8585ae', fontSize:"1rem"}}><span>More features coming soon!</span></div>
     </div>
   );
 }

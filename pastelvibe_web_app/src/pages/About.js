@@ -9,8 +9,6 @@ function About() {
       <div className="description">
         PastelVibe helps you explore the intersection between color and mood. 
         Discover playlists and moodboards that reflect your aesthetic. 
-        <br /><br />
-        <b>Coming soon:</b> Color psychology, vibe profiles, and more!
       </div>
     </div>
   );
