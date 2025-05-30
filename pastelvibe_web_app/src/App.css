@@ -1,9 +1,13 @@
 :root {
-  --kavia-orange: #E87A41;
-  --kavia-dark: #1A1A1A;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
+  --pastel-primary: #D8B4FE;
+  --pastel-secondary: #93C5FD;
+  --pastel-accent: #F9A8D4;
+  --pastel-background: #FDF6FB;
+  --pastel-surface: #F1F1EF;
+  --pastel-text: #30465A;
+  --pastel-shadow: 0 4px 16px 0 rgba(120, 120, 220, 0.07);
+  --pastel-border: 1.5px solid rgba(180, 176, 220, 0.15);
+  --glass-blur: blur(10px);
 }
 
 body {
