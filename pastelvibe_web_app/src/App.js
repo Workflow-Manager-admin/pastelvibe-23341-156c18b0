@@ -23,8 +23,38 @@ function App() {
               </div>
               <div style={{ flex: 1 }} />
               <div style={{ display: 'flex', gap: '28px', fontWeight: 500 }}>
-                <Link to="/" style={{ color: 'var(--pastel-text)', textDecoration: 'none', fontSize: '1.06rem' }}>Home</Link>
-                <Link to="/music" style={{ color: 'var(--pastel-accent)', textDecoration: 'none', fontWeight: 700, fontSize: '1.10rem', borderRadius:"12px", padding:"4px 14px", background:"rgba(255,243,255,0.17)" }}>Music</Link>
+                <Link
+                  to="/"
+                  style={{
+                    color: 'var(--pastel-primary)',
+                    textDecoration: 'none',
+                    fontWeight: 700,
+                    fontSize: '1.10rem',
+                    borderRadius: "12px",
+                    padding: "4px 14px",
+                    background: "rgba(255, 255, 255, 0.23)",
+                    boxShadow: "0 1.5px 18px 0 rgba(220,190,255,0.046)",
+                    transition: "background 0.19s, color 0.15s"
+                  }}
+                >
+                  Home
+                </Link>
+                <Link
+                  to="/music"
+                  style={{
+                    color: 'var(--pastel-accent)',
+                    textDecoration: 'none',
+                    fontWeight: 700,
+                    fontSize: '1.10rem',
+                    borderRadius:"12px",
+                    padding:"4px 14px",
+                    background:"rgba(255,243,255,0.17)",
+                    boxShadow: "0 1.5px 18px 0 rgba(220,190,255,0.046)",
+                    transition: "background 0.19s, color 0.15s"
+                  }}
+                >
+                  Music
+                </Link>
               </div>
             </div>
           </div>
