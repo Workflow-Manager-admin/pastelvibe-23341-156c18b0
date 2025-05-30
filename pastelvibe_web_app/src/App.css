@@ -13,16 +13,18 @@
 body {
   margin: 0;
   font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  background-color: var(--kavia-dark);
-  color: var(--text-color);
+  background: linear-gradient(120deg, var(--pastel-background) 70%, var(--pastel-secondary) 100%);
+  color: var(--pastel-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background 0.42s cubic-bezier(0.55,0.38,0.97,0.57), color 0.2s;
 }
 
 .app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: transparent;
 }
 
 .navbar {
