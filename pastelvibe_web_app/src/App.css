@@ -47,15 +47,17 @@ body {
 }
 
 .logo {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 700;
   display: flex;
   align-items: center;
   gap: 8px;
+  letter-spacing: 0.05em;
+  color: var(--pastel-primary);
 }
 
 .logo-symbol {
-  color: var(--kavia-orange);
+  color: var(--pastel-accent);
 }
 
 .container {
