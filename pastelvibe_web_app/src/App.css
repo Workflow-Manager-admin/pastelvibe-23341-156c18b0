@@ -123,22 +123,91 @@ body {
 }
 
 .btn {
-  background-color: var(--kavia-orange);
-  color: white;
+  background: linear-gradient(90deg, var(--pastel-primary), var(--pastel-accent));
+  color: #fff;
   border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
+  border-radius: 20px;
+  padding: 10px 24px;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  box-shadow: 0 4px 16px rgba(130,130,180,0.07);
+  transition: background 0.23s cubic-bezier(0.7, 0.15, 0.46, 0.98), filter 0.19s;
+  filter: drop-shadow(0 2px 4px rgba(220,130,180,0.08));
 }
 
 .btn:hover {
-  background-color: #FF8B4D;
+  background: linear-gradient(90deg, var(--pastel-accent), var(--pastel-primary));
+  filter: brightness(1.07);
 }
 
 .btn-large {
-  padding: 12px 24px;
-  font-size: 1.1rem;
+  padding: 14px 30px;
+  font-size: 1.12rem;
 }
+
+/* Palette selector styling */
+.palette-selector {
+  margin: 32px 0 16px 0;
+}
+.palette-selector-grid {
+  display: flex;
+  gap: 22px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.palette-swatch {
+  background: rgba(255,255,255,0.69);
+  border-radius: 1.3em;
+  box-shadow: 0 1px 12px rgba(180,180,220,0.13);
+  border: 2.5px solid #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 18px 8px 18px;
+  cursor: pointer;
+  min-width: 92px;
+  margin-bottom: 8px;
+  transition: border 0.22s, box-shadow 0.16s;
+  outline: none;
+}
+.palette-swatch:focus {
+  border: 2.5px solid var(--pastel-accent);
+}
+.palette-swatch-active {
+  border: 3px solid var(--pastel-primary);
+  box-shadow: 0 3px 12px 0 var(--pastel-accent), 0 0px 0px 8px #fff4;
+}
+.swatch-row {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+.swatch {
+  width: 22px;
+  height: 20px;
+  border-radius: 7px;
+  margin: 0 1.5px;
+  box-shadow: 0 0.5px 4px #ddd5;
+  border: 1.5px solid #fff6;
+}
+.palette-name {
+  font-size: 0.98rem;
+  margin-top: 1px;
+  color: #8573B1;
+}
+
+/* Responsive: mobile stack */
+@media (max-width: 640px) {
+  .container {
+    border-radius: 1.2rem;
+    margin: 3px;
+    padding: 0 5px;
+  }
+  .palette-selector-grid {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}
+
