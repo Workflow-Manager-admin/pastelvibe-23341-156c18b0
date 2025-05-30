@@ -7,21 +7,40 @@ import ColorPicker from './pages/ColorPicker';
 import Result from './pages/Result';
 import Gallery from './pages/Gallery';
 import About from './pages/About';
-import Music from './pages/Music';
+// Removed Music import (and references)
+// import Music from './pages/Music';
 import Playlist from './pages/Playlist';
 import Surprise from './pages/Surprise';
 
+// PUBLIC_INTERFACE
 function App() {
   return (
     <Router>
       <div className="app">
         <nav className="navbar">
-          <div className="container" style={{paddingTop:0,paddingBottom:0,marginTop:0,marginBottom:0,background:"transparent",boxShadow:"none"}}>
-            <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+          <div
+            className="container"
+            style={{
+              paddingTop: 0,
+              paddingBottom: 0,
+              marginTop: 0,
+              marginBottom: 0,
+              background: "transparent",
+              boxShadow: "none"
+            }}
+          >
+            <div
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                width: '100%'
+              }}
+            >
               <div className="logo" style={{ color: 'var(--pastel-primary)' }}>
                 PastelVibe
               </div>
               <div style={{ flex: 1 }} />
+              {/* Only Home navigation kept */}
               <div style={{ display: 'flex', gap: '28px', fontWeight: 500 }}>
                 <Link
                   to="/"
@@ -52,7 +71,8 @@ function App() {
               <Route path="/result" element={<Result />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/about" element={<About />} />
-              <Route path="/music" element={<Music />} />
+              {/* Music route removed */}
+              {/* <Route path="/music" element={<Music />} /> */}
               <Route path="/playlist" element={<Playlist />} />
               <Route path="/surprise" element={<Surprise />} />
             </Routes>
