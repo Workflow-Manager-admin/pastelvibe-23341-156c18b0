@@ -113,9 +113,13 @@ body {
 .description {
   font-size: 1.1rem;
   line-height: 1.5;
-  color: var(--text-secondary);
+  color: #6C567B;
   max-width: 600px;
   margin-bottom: 16px;
+  background: rgba(250,240,255,0.16);
+  border-radius: 1rem;
+  padding: 0.8em 1.4em;
+  font-family: 'Quicksand', 'Inter', sans-serif;
 }
 
 .btn {
