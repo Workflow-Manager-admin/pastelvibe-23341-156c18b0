@@ -101,9 +101,13 @@ body {
 
 .title {
   font-size: 3.5rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.2;
   margin: 0;
+  color: var(--pastel-primary);
+  letter-spacing: 0.02em;
+  text-shadow: 0 2px 8px rgba(110,110,160,0.07);
+  font-family: 'Comfortaa', 'Poppins', 'Inter', sans-serif;
 }
 
 .description {
