@@ -64,3 +64,75 @@ ERROR in ./src/App.js 11:0-34
 Module not found: Error: Can't resolve './pages/About' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
 
 webpack compiled with 6 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+ERROR in ./src/App.js 5:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+ERROR in ./src/App.js 8:0-46
+Module not found: Error: Can't resolve './pages/ColorPicker' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+ERROR in ./src/App.js 9:0-36
+Module not found: Error: Can't resolve './pages/Result' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+ERROR in ./src/App.js 10:0-38
+Module not found: Error: Can't resolve './pages/Gallery' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+ERROR in ./src/App.js 11:0-34
+Module not found: Error: Can't resolve './pages/About' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+webpack compiled with 5 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+ERROR in ./src/App.js 5:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+ERROR in ./src/App.js 8:0-46
+Module not found: Error: Can't resolve './pages/ColorPicker' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+ERROR in ./src/App.js 9:0-36
+Module not found: Error: Can't resolve './pages/Result' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+ERROR in ./src/App.js 10:0-38
+Module not found: Error: Can't resolve './pages/Gallery' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+ERROR in ./src/App.js 11:0-34
+Module not found: Error: Can't resolve './pages/About' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+webpack compiled with 5 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+ERROR in ./src/App.js 5:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+ERROR in ./src/App.js 9:0-36
+Module not found: Error: Can't resolve './pages/Result' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+ERROR in ./src/App.js 10:0-38
+Module not found: Error: Can't resolve './pages/Gallery' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+ERROR in ./src/App.js 11:0-34
+Module not found: Error: Can't resolve './pages/About' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+webpack compiled with 4 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+ERROR in ./src/App.js 5:0-74
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+ERROR in ./src/App.js 10:0-38
+Module not found: Error: Can't resolve './pages/Gallery' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+ERROR in ./src/App.js 11:0-34
+Module not found: Error: Can't resolve './pages/About' in '/home/kavia/workspace/code-generation/pastelvibe-23341-156c18b0/pastelvibe_web_app/src'
+
+webpack compiled with 3 errors
+Compiling...
