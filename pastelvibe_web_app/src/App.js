@@ -9,6 +9,7 @@ import Gallery from './pages/Gallery';
 import About from './pages/About';
 import Music from './pages/Music';
 import Playlist from './pages/Playlist';
+import Surprise from './pages/Surprise';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/music" element={<Music />} />
               <Route path="/playlist" element={<Playlist />} />
+              <Route path="/surprise" element={<Surprise />} />
             </Routes>
           </div>
         </main>
