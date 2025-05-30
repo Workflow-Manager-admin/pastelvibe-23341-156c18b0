@@ -83,12 +83,20 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  background: linear-gradient(120deg, var(--pastel-secondary) 0%, var(--pastel-background) 100%);
+  border-radius: 2rem;
+  box-shadow: 0 1px 16px 0 rgba(180,210,255,0.08) inset;
+  opacity: 0.97;
 }
 
 .subtitle {
-  color: var(--kavia-orange);
+  color: var(--pastel-accent);
   font-weight: 500;
   font-size: 1.1rem;
+  background: rgba(255,234,255,0.3);
+  border-radius: 0.7em;
+  padding: 0.3em 1.1em;
+  display: inline-block;
 }
 
 .title {
