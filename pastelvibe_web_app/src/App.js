@@ -1,36 +1,29 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Home from './pages/Home/Home';
+import ColorPicker from './pages/ColorPicker/ColorPicker';
+import Result from './pages/Result/Result';
+import Gallery from './pages/Gallery/Gallery';
+import About from './pages/About/About';
 
+// PUBLIC_INTERFACE
 function App() {
   return (
-    <div className="app">
-      <nav className="navbar">
-        <div className="container">
-          <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-            <div className="logo">
-              <span className="logo-symbol">*</span> KAVIA AI
-            </div>
-            <button className="btn">Template Button</button>
-          </div>
-        </div>
-      </nav>
-
-      <main>
-        <div className="container">
-          <div className="hero">
-            <div className="subtitle">AI Workflow Manager Template</div>
-            
-            <h1 className="title">pastelvibe_web_app</h1>
-            
-            <div className="description">
-              Start building your application.
-            </div>
-            
-            <button className="btn btn-large">Button</button>
-          </div>
-        </div>
-      </main>
-    </div>
+    <Router>
+      <div className="app">
+        <Layout>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/color-picker" element={<ColorPicker />} />
+            <Route path="/result" element={<Result />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+        </Layout>
+      </div>
+    </Router>
   );
 }
 
